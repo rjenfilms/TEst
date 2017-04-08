@@ -1,523 +1,391 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xmeml>
 <xmeml version="4">
-	<project>
-		<name>Test</name>
-		<children>
-			<clip id="masterclip-7" explodedTracks="true">
-				<uuid>8cdb462f-8af3-49f7-af61-5ddb91abaf44</uuid>
-				<masterclipid>masterclip-7</masterclipid>
-				<ismasterclip>TRUE</ismasterclip>
-				<duration>150</duration>
-				<rate>
-					<timebase>30</timebase>
-					<ntsc>TRUE</ntsc>
-				</rate>
-				<in>0</in>
-				<out>149</out>
-				<name>03302_cinqueterre_2880x1620.jpg</name>
-				<media>
-					<video>
-						<track>
-							<clipitem id="clipitem-17">
-								<masterclipid>masterclip-7</masterclipid>
-								<name>03302_cinqueterre_2880x1620.jpg</name>
+	<sequence id="sequence-5" TL.SQAudioVisibleBase="0" TL.SQVideoVisibleBase="0" TL.SQVisibleBaseTime="2203673472000" TL.SQAVDividerPosition="0.5" TL.SQHideShyTracks="0" TL.SQHeaderWidth="236" Monitor.ProgramZoomOut="4517530617600" Monitor.ProgramZoomIn="0" TL.SQTimePerPixel="0.02204715447153965" MZ.EditLine="4517530617600" MZ.Sequence.PreviewFrameSizeHeight="1080" MZ.Sequence.PreviewFrameSizeWidth="1920" MZ.Sequence.AudioTimeDisplayFormat="200" MZ.Sequence.PreviewRenderingClassID="1297106761" MZ.Sequence.PreviewRenderingPresetCodec="1297107278" MZ.Sequence.PreviewRenderingPresetPath="EncoderPresets\SequencePreview\cc7991f5-c236-4db1-957e-2c71f924e81c\I-Frame Only MPEG.epr" MZ.Sequence.PreviewUseMaxRenderQuality="false" MZ.Sequence.PreviewUseMaxBitDepth="false" MZ.Sequence.EditingModeGUID="cc7991f5-c236-4db1-957e-2c71f924e81c" MZ.Sequence.VideoTimeDisplayFormat="102" MZ.WorkOutPoint="4517530617600" MZ.WorkInPoint="0" explodedTracks="true">
+		<uuid>26fff9f2-30c4-4ebd-8d46-d05812a2e3b9</uuid>
+		<duration>533</duration>
+		<rate>
+			<timebase>30</timebase>
+			<ntsc>TRUE</ntsc>
+		</rate>
+		<name>03302_cinqueterre_2880x1620</name>
+		<media>
+			<video>
+				<format>
+					<samplecharacteristics>
+						<rate>
+							<timebase>30</timebase>
+							<ntsc>TRUE</ntsc>
+						</rate>
+						<codec>
+							<name>Apple ProRes 422</name>
+							<appspecificdata>
+								<appname>Final Cut Pro</appname>
+								<appmanufacturer>Apple Inc.</appmanufacturer>
+								<appversion>7.0</appversion>
+								<data>
+									<qtcodec>
+										<codecname>Apple ProRes 422</codecname>
+										<codectypename>Apple ProRes 422</codectypename>
+										<codectypecode>apcn</codectypecode>
+										<codecvendorcode>appl</codecvendorcode>
+										<spatialquality>1024</spatialquality>
+										<temporalquality>0</temporalquality>
+										<keyframerate>0</keyframerate>
+										<datarate>0</datarate>
+									</qtcodec>
+								</data>
+							</appspecificdata>
+						</codec>
+						<width>2880</width>
+						<height>1620</height>
+						<anamorphic>FALSE</anamorphic>
+						<pixelaspectratio>square</pixelaspectratio>
+						<fielddominance>none</fielddominance>
+						<colordepth>24</colordepth>
+					</samplecharacteristics>
+				</format>
+				<track TL.SQTrackShy="0" TL.SQTrackExpandedHeight="25" TL.SQTrackExpanded="0" MZ.TrackTargeted="1">
+					<clipitem id="clipitem-29">
+						<masterclipid>masterclip-13</masterclipid>
+						<name>03302_cinqueterre_2880x1620.jpg</name>
+						<enabled>TRUE</enabled>
+						<duration>1294705</duration>
+						<rate>
+							<timebase>30</timebase>
+							<ntsc>TRUE</ntsc>
+						</rate>
+						<start>0</start>
+						<end>149</end>
+						<in>107892</in>
+						<out>108041</out>
+						<pproTicksIn>914456685542400</pproTicksIn>
+						<pproTicksOut>915719559955200</pproTicksOut>
+						<alphatype>none</alphatype>
+						<pixelaspectratio>square</pixelaspectratio>
+						<anamorphic>FALSE</anamorphic>
+						<file id="file-13">
+							<name>03302_cinqueterre_2880x1620.jpg</name>
+							<pathurl>file://localhost/C%3a/Users/Ansley/Pictures/03302_cinqueterre_2880x1620.jpg</pathurl>
+							<rate>
+								<timebase>30</timebase>
+								<ntsc>TRUE</ntsc>
+							</rate>
+							<timecode>
 								<rate>
 									<timebase>30</timebase>
 									<ntsc>TRUE</ntsc>
 								</rate>
-								<alphatype>none</alphatype>
-								<pixelaspectratio>square</pixelaspectratio>
-								<anamorphic>FALSE</anamorphic>
-								<file id="file-7">
-									<name>03302_cinqueterre_2880x1620.jpg</name>
-									<pathurl>file://localhost/C%3a/Users/Ansley/Pictures/03302_cinqueterre_2880x1620.jpg</pathurl>
-									<rate>
-										<timebase>30</timebase>
-										<ntsc>TRUE</ntsc>
-									</rate>
-									<timecode>
+								<string>00:00:00:00</string>
+								<frame>0</frame>
+								<displayformat>NDF</displayformat>
+								<reel>
+									<name></name>
+								</reel>
+							</timecode>
+							<media>
+								<video>
+									<samplecharacteristics>
 										<rate>
 											<timebase>30</timebase>
 											<ntsc>TRUE</ntsc>
 										</rate>
-										<string>00:00:00:00</string>
-										<frame>0</frame>
-										<displayformat>NDF</displayformat>
-									</timecode>
-									<media>
-										<video>
-											<samplecharacteristics>
-												<rate>
-													<timebase>30</timebase>
-													<ntsc>TRUE</ntsc>
-												</rate>
-												<width>2880</width>
-												<height>1620</height>
-												<anamorphic>FALSE</anamorphic>
-												<pixelaspectratio>square</pixelaspectratio>
-												<fielddominance>none</fielddominance>
-											</samplecharacteristics>
-										</video>
-									</media>
-								</file>
-							</clipitem>
-						</track>
-					</video>
-				</media>
-				<logginginfo>
-					<description></description>
-					<scene></scene>
-					<shottake></shottake>
-					<lognote></lognote>
-				</logginginfo>
-				<labels>
-					<label2>Lavender</label2>
-				</labels>
-			</clip>
-			<sequence id="sequence-3" TL.SQAudioVisibleBase="0" TL.SQVideoVisibleBase="0" TL.SQVisibleBaseTime="672039598828" TL.SQAVDividerPosition="0.5" TL.SQHideShyTracks="0" TL.SQHeaderWidth="236" Monitor.ProgramZoomOut="2618981164800" Monitor.ProgramZoomIn="0" TL.SQTimePerPixel="0.02204715447153965" MZ.EditLine="2347759814400" MZ.Sequence.PreviewFrameSizeHeight="1080" MZ.Sequence.PreviewFrameSizeWidth="1920" MZ.Sequence.AudioTimeDisplayFormat="200" MZ.Sequence.PreviewRenderingClassID="1297106761" MZ.Sequence.PreviewRenderingPresetCodec="1297107278" MZ.Sequence.PreviewRenderingPresetPath="EncoderPresets\SequencePreview\cc7991f5-c236-4db1-957e-2c71f924e81c\I-Frame Only MPEG.epr" MZ.Sequence.PreviewUseMaxRenderQuality="false" MZ.Sequence.PreviewUseMaxBitDepth="false" MZ.Sequence.EditingModeGUID="cc7991f5-c236-4db1-957e-2c71f924e81c" MZ.Sequence.VideoTimeDisplayFormat="102" MZ.WorkOutPoint="2618981164800" MZ.WorkInPoint="0" explodedTracks="true">
-				<uuid>26fff9f2-30c4-4ebd-8d46-d05812a2e3b9</uuid>
-				<duration>298</duration>
-				<rate>
-					<timebase>30</timebase>
-					<ntsc>TRUE</ntsc>
-				</rate>
-				<name>03302_cinqueterre_2880x1620</name>
-				<media>
-					<video>
-						<format>
-							<samplecharacteristics>
+										<width>2880</width>
+										<height>1620</height>
+										<anamorphic>FALSE</anamorphic>
+										<pixelaspectratio>square</pixelaspectratio>
+										<fielddominance>none</fielddominance>
+									</samplecharacteristics>
+								</video>
+							</media>
+						</file>
+						<logginginfo>
+							<description></description>
+							<scene></scene>
+							<shottake></shottake>
+							<lognote></lognote>
+						</logginginfo>
+						<labels>
+							<label2>Lavender</label2>
+						</labels>
+					</clipitem>
+					<clipitem id="clipitem-30">
+						<masterclipid>masterclip-14</masterclipid>
+						<name>164701_676315052385_33413623_37191912_4708517_n.jpg</name>
+						<enabled>TRUE</enabled>
+						<duration>1294705</duration>
+						<rate>
+							<timebase>30</timebase>
+							<ntsc>TRUE</ntsc>
+						</rate>
+						<start>149</start>
+						<end>277</end>
+						<in>107892</in>
+						<out>108020</out>
+						<pproTicksIn>914456685542400</pproTicksIn>
+						<pproTicksOut>915541570944000</pproTicksOut>
+						<alphatype>none</alphatype>
+						<pixelaspectratio>square</pixelaspectratio>
+						<anamorphic>FALSE</anamorphic>
+						<file id="file-14">
+							<name>164701_676315052385_33413623_37191912_4708517_n.jpg</name>
+							<pathurl>file://localhost/C%3a/Users/Ansley/Pictures/164701_676315052385_33413623_37191912_4708517_n.jpg</pathurl>
+							<rate>
+								<timebase>30</timebase>
+								<ntsc>TRUE</ntsc>
+							</rate>
+							<timecode>
 								<rate>
 									<timebase>30</timebase>
 									<ntsc>TRUE</ntsc>
 								</rate>
-								<codec>
-									<name>Apple ProRes 422</name>
-									<appspecificdata>
-										<appname>Final Cut Pro</appname>
-										<appmanufacturer>Apple Inc.</appmanufacturer>
-										<appversion>7.0</appversion>
-										<data>
-											<qtcodec>
-												<codecname>Apple ProRes 422</codecname>
-												<codectypename>Apple ProRes 422</codectypename>
-												<codectypecode>apcn</codectypecode>
-												<codecvendorcode>appl</codecvendorcode>
-												<spatialquality>1024</spatialquality>
-												<temporalquality>0</temporalquality>
-												<keyframerate>0</keyframerate>
-												<datarate>0</datarate>
-											</qtcodec>
-										</data>
-									</appspecificdata>
-								</codec>
-								<width>2880</width>
-								<height>1620</height>
-								<anamorphic>FALSE</anamorphic>
-								<pixelaspectratio>square</pixelaspectratio>
-								<fielddominance>none</fielddominance>
-								<colordepth>24</colordepth>
-							</samplecharacteristics>
-						</format>
-						<track TL.SQTrackShy="0" TL.SQTrackExpandedHeight="25" TL.SQTrackExpanded="0" MZ.TrackTargeted="1">
-							<clipitem id="clipitem-18">
-								<masterclipid>masterclip-7</masterclipid>
-								<name>03302_cinqueterre_2880x1620.jpg</name>
-								<enabled>TRUE</enabled>
-								<duration>1294705</duration>
-								<rate>
-									<timebase>30</timebase>
-									<ntsc>TRUE</ntsc>
-								</rate>
-								<start>0</start>
-								<end>149</end>
-								<in>107892</in>
-								<out>108041</out>
-								<pproTicksIn>914456685542400</pproTicksIn>
-								<pproTicksOut>915719559955200</pproTicksOut>
-								<alphatype>none</alphatype>
-								<file id="file-7"/>
-								<logginginfo>
-									<description></description>
-									<scene></scene>
-									<shottake></shottake>
-									<lognote></lognote>
-								</logginginfo>
-								<labels>
-									<label2>Lavender</label2>
-								</labels>
-							</clipitem>
-							<clipitem id="clipitem-19">
-								<masterclipid>masterclip-8</masterclipid>
-								<name>164701_676315052385_33413623_37191912_4708517_n.jpg</name>
-								<enabled>TRUE</enabled>
-								<duration>1294705</duration>
-								<rate>
-									<timebase>30</timebase>
-									<ntsc>TRUE</ntsc>
-								</rate>
-								<start>149</start>
-								<end>193</end>
-								<in>107892</in>
-								<out>107936</out>
-								<pproTicksIn>914456685542400</pproTicksIn>
-								<pproTicksOut>914829614899200</pproTicksOut>
-								<alphatype>none</alphatype>
-								<pixelaspectratio>square</pixelaspectratio>
-								<anamorphic>FALSE</anamorphic>
-								<file id="file-8">
-									<name>164701_676315052385_33413623_37191912_4708517_n.jpg</name>
-									<pathurl>file://localhost/C%3a/Users/Ansley/Pictures/164701_676315052385_33413623_37191912_4708517_n.jpg</pathurl>
-									<rate>
-										<timebase>30</timebase>
-										<ntsc>TRUE</ntsc>
-									</rate>
-									<timecode>
+								<string>00:00:00:00</string>
+								<frame>0</frame>
+								<displayformat>NDF</displayformat>
+								<reel>
+									<name></name>
+								</reel>
+							</timecode>
+							<media>
+								<video>
+									<samplecharacteristics>
 										<rate>
 											<timebase>30</timebase>
 											<ntsc>TRUE</ntsc>
 										</rate>
-										<string>00:00:00:00</string>
-										<frame>0</frame>
-										<displayformat>NDF</displayformat>
-										<reel>
-											<name></name>
-										</reel>
-									</timecode>
-									<media>
-										<video>
-											<samplecharacteristics>
-												<rate>
-													<timebase>30</timebase>
-													<ntsc>TRUE</ntsc>
-												</rate>
-												<width>399</width>
-												<height>266</height>
-												<anamorphic>FALSE</anamorphic>
-												<pixelaspectratio>square</pixelaspectratio>
-												<fielddominance>none</fielddominance>
-											</samplecharacteristics>
-										</video>
-									</media>
-								</file>
-								<logginginfo>
-									<description></description>
-									<scene></scene>
-									<shottake></shottake>
-									<lognote></lognote>
-								</logginginfo>
-								<labels>
-									<label2>Lavender</label2>
-								</labels>
-							</clipitem>
-							<clipitem id="clipitem-20">
-								<masterclipid>masterclip-8</masterclipid>
-								<name>164701_676315052385_33413623_37191912_4708517_n.jpg</name>
-								<enabled>TRUE</enabled>
-								<duration>1294705</duration>
+										<width>399</width>
+										<height>266</height>
+										<anamorphic>FALSE</anamorphic>
+										<pixelaspectratio>square</pixelaspectratio>
+										<fielddominance>none</fielddominance>
+									</samplecharacteristics>
+								</video>
+							</media>
+						</file>
+						<logginginfo>
+							<description></description>
+							<scene></scene>
+							<shottake></shottake>
+							<lognote></lognote>
+						</logginginfo>
+						<labels>
+							<label2>Lavender</label2>
+						</labels>
+					</clipitem>
+					<clipitem id="clipitem-31">
+						<masterclipid>masterclip-14</masterclipid>
+						<name>164701_676315052385_33413623_37191912_4708517_n.jpg</name>
+						<enabled>TRUE</enabled>
+						<duration>1294705</duration>
+						<rate>
+							<timebase>30</timebase>
+							<ntsc>TRUE</ntsc>
+						</rate>
+						<start>405</start>
+						<end>533</end>
+						<in>107892</in>
+						<out>108020</out>
+						<pproTicksIn>914456685542400</pproTicksIn>
+						<pproTicksOut>915541570944000</pproTicksOut>
+						<alphatype>none</alphatype>
+						<file id="file-14"/>
+						<logginginfo>
+							<description></description>
+							<scene></scene>
+							<shottake></shottake>
+							<lognote></lognote>
+						</logginginfo>
+						<labels>
+							<label2>Lavender</label2>
+						</labels>
+					</clipitem>
+					<enabled>TRUE</enabled>
+					<locked>FALSE</locked>
+				</track>
+				<track TL.SQTrackShy="0" TL.SQTrackExpandedHeight="25" TL.SQTrackExpanded="0" MZ.TrackTargeted="0">
+					<enabled>TRUE</enabled>
+					<locked>FALSE</locked>
+				</track>
+				<track TL.SQTrackShy="0" TL.SQTrackExpandedHeight="25" TL.SQTrackExpanded="0" MZ.TrackTargeted="0">
+					<clipitem id="clipitem-32">
+						<masterclipid>masterclip-15</masterclipid>
+						<name>180361_676314957575_3424422_n.jpg</name>
+						<enabled>TRUE</enabled>
+						<duration>1294705</duration>
+						<rate>
+							<timebase>30</timebase>
+							<ntsc>TRUE</ntsc>
+						</rate>
+						<start>225</start>
+						<end>277</end>
+						<in>107957</in>
+						<out>108009</out>
+						<pproTicksIn>915007603910400</pproTicksIn>
+						<pproTicksOut>915448338604800</pproTicksOut>
+						<alphatype>none</alphatype>
+						<pixelaspectratio>NTSC-601</pixelaspectratio>
+						<anamorphic>FALSE</anamorphic>
+						<file id="file-15">
+							<name>180361_676314957575_3424422_n.jpg</name>
+							<pathurl>file://localhost/C%3a/Users/Ansley/Pictures/180361_676314957575_3424422_n.jpg</pathurl>
+							<rate>
+								<timebase>30</timebase>
+								<ntsc>TRUE</ntsc>
+							</rate>
+							<timecode>
 								<rate>
 									<timebase>30</timebase>
 									<ntsc>TRUE</ntsc>
 								</rate>
-								<start>277</start>
-								<end>298</end>
-								<in>108020</in>
-								<out>108041</out>
-								<pproTicksIn>915541570944000</pproTicksIn>
-								<pproTicksOut>915719559955200</pproTicksOut>
-								<alphatype>none</alphatype>
-								<file id="file-8"/>
-								<logginginfo>
-									<description></description>
-									<scene></scene>
-									<shottake></shottake>
-									<lognote></lognote>
-								</logginginfo>
-								<labels>
-									<label2>Lavender</label2>
-								</labels>
-							</clipitem>
-							<enabled>TRUE</enabled>
-							<locked>FALSE</locked>
-						</track>
-						<track TL.SQTrackShy="0" TL.SQTrackExpandedHeight="25" TL.SQTrackExpanded="0" MZ.TrackTargeted="0">
-							<clipitem id="clipitem-21">
-								<masterclipid>masterclip-9</masterclipid>
-								<name>180361_676314957575_3424422_n.jpg</name>
-								<enabled>TRUE</enabled>
-								<duration>1294705</duration>
-								<rate>
-									<timebase>30</timebase>
-									<ntsc>TRUE</ntsc>
-								</rate>
-								<start>162</start>
-								<end>246</end>
-								<in>107957</in>
-								<out>108041</out>
-								<pproTicksIn>915007603910400</pproTicksIn>
-								<pproTicksOut>915719559955200</pproTicksOut>
-								<alphatype>none</alphatype>
-								<pixelaspectratio>NTSC-601</pixelaspectratio>
-								<anamorphic>FALSE</anamorphic>
-								<file id="file-9">
-									<name>180361_676314957575_3424422_n.jpg</name>
-									<pathurl>file://localhost/C%3a/Users/Ansley/Pictures/180361_676314957575_3424422_n.jpg</pathurl>
-									<rate>
-										<timebase>30</timebase>
-										<ntsc>TRUE</ntsc>
-									</rate>
-									<timecode>
+								<string>00:00:00:00</string>
+								<frame>0</frame>
+								<displayformat>NDF</displayformat>
+								<reel>
+									<name></name>
+								</reel>
+							</timecode>
+							<media>
+								<video>
+									<samplecharacteristics>
 										<rate>
 											<timebase>30</timebase>
 											<ntsc>TRUE</ntsc>
 										</rate>
-										<string>00:00:00:00</string>
-										<frame>0</frame>
-										<displayformat>NDF</displayformat>
-										<reel>
-											<name></name>
-										</reel>
-									</timecode>
-									<media>
-										<video>
-											<samplecharacteristics>
-												<rate>
-													<timebase>30</timebase>
-													<ntsc>TRUE</ntsc>
-												</rate>
-												<width>720</width>
-												<height>480</height>
-												<anamorphic>FALSE</anamorphic>
-												<pixelaspectratio>NTSC-601</pixelaspectratio>
-												<fielddominance>none</fielddominance>
-											</samplecharacteristics>
-										</video>
-									</media>
-								</file>
-								<filter>
-									<effect>
-										<name>Distort</name>
-										<effectid>deformation</effectid>
-										<effectcategory>motion</effectcategory>
-										<effecttype>motion</effecttype>
-										<mediatype>video</mediatype>
-										<parameter authoringApp="PremierePro">
-											<parameterid>aspect</parameterid>
-											<name>Aspect</name>
-											<valuemin>-10000</valuemin>
-											<valuemax>10000</valuemax>
-											<value>10</value>
-										</parameter>
-									</effect>
-								</filter>
-								<logginginfo>
-									<description></description>
-									<scene></scene>
-									<shottake></shottake>
-									<lognote></lognote>
-								</logginginfo>
-								<labels>
-									<label2>Lavender</label2>
-								</labels>
-							</clipitem>
-							<enabled>TRUE</enabled>
-							<locked>FALSE</locked>
-						</track>
-						<track TL.SQTrackShy="0" TL.SQTrackExpandedHeight="25" TL.SQTrackExpanded="0" MZ.TrackTargeted="0">
-							<clipitem id="clipitem-22">
-								<masterclipid>masterclip-9</masterclipid>
-								<name>180361_676314957575_3424422_n.jpg</name>
-								<enabled>TRUE</enabled>
-								<duration>1294705</duration>
-								<rate>
-									<timebase>30</timebase>
-									<ntsc>TRUE</ntsc>
-								</rate>
-								<start>225</start>
-								<end>309</end>
-								<in>107957</in>
-								<out>108041</out>
-								<pproTicksIn>915007603910400</pproTicksIn>
-								<pproTicksOut>915719559955200</pproTicksOut>
-								<alphatype>none</alphatype>
-								<file id="file-9"/>
-								<filter>
-									<effect>
-										<name>Distort</name>
-										<effectid>deformation</effectid>
-										<effectcategory>motion</effectcategory>
-										<effecttype>motion</effecttype>
-										<mediatype>video</mediatype>
-										<parameter authoringApp="PremierePro">
-											<parameterid>aspect</parameterid>
-											<name>Aspect</name>
-											<valuemin>-10000</valuemin>
-											<valuemax>10000</valuemax>
-											<value>10</value>
-										</parameter>
-									</effect>
-								</filter>
-								<logginginfo>
-									<description></description>
-									<scene></scene>
-									<shottake></shottake>
-									<lognote></lognote>
-								</logginginfo>
-								<labels>
-									<label2>Lavender</label2>
-								</labels>
-							</clipitem>
-							<enabled>TRUE</enabled>
-							<locked>FALSE</locked>
-						</track>
-					</video>
-					<audio>
-						<numOutputChannels>2</numOutputChannels>
-						<format>
-							<samplecharacteristics>
-								<depth>16</depth>
-								<samplerate>48000</samplerate>
-							</samplecharacteristics>
-						</format>
-						<outputs>
-							<group>
-								<index>1</index>
-								<numchannels>1</numchannels>
-								<downmix>0</downmix>
-								<channel>
-									<index>1</index>
-								</channel>
-							</group>
-							<group>
-								<index>2</index>
-								<numchannels>1</numchannels>
-								<downmix>0</downmix>
-								<channel>
-									<index>2</index>
-								</channel>
-							</group>
-						</outputs>
-						<track TL.SQTrackAudioKeyframeStyle="0" TL.SQTrackShy="0" TL.SQTrackExpandedHeight="25" TL.SQTrackExpanded="0" MZ.TrackTargeted="1" PannerCurrentValue="0.5" PannerIsInverted="true" PannerStartKeyframe="-91445760000000000,0.5,0,0,0,0,0,0" PannerName="Balance" currentExplodedTrackIndex="0" totalExplodedTrackCount="2" premiereTrackType="Stereo">
-							<enabled>TRUE</enabled>
-							<locked>FALSE</locked>
-							<outputchannelindex>1</outputchannelindex>
-						</track>
-						<track TL.SQTrackAudioKeyframeStyle="0" TL.SQTrackShy="0" TL.SQTrackExpandedHeight="25" TL.SQTrackExpanded="0" MZ.TrackTargeted="1" PannerCurrentValue="0.5" PannerIsInverted="true" PannerStartKeyframe="-91445760000000000,0.5,0,0,0,0,0,0" PannerName="Balance" currentExplodedTrackIndex="1" totalExplodedTrackCount="2" premiereTrackType="Stereo">
-							<enabled>TRUE</enabled>
-							<locked>FALSE</locked>
-							<outputchannelindex>2</outputchannelindex>
-						</track>
-						<track TL.SQTrackAudioKeyframeStyle="0" TL.SQTrackShy="0" TL.SQTrackExpandedHeight="25" TL.SQTrackExpanded="0" MZ.TrackTargeted="1" PannerCurrentValue="0.5" PannerIsInverted="true" PannerStartKeyframe="-91445760000000000,0.5,0,0,0,0,0,0" PannerName="Balance" currentExplodedTrackIndex="0" totalExplodedTrackCount="2" premiereTrackType="Stereo">
-							<enabled>TRUE</enabled>
-							<locked>FALSE</locked>
-							<outputchannelindex>1</outputchannelindex>
-						</track>
-						<track TL.SQTrackAudioKeyframeStyle="0" TL.SQTrackShy="0" TL.SQTrackExpandedHeight="25" TL.SQTrackExpanded="0" MZ.TrackTargeted="1" PannerCurrentValue="0.5" PannerIsInverted="true" PannerStartKeyframe="-91445760000000000,0.5,0,0,0,0,0,0" PannerName="Balance" currentExplodedTrackIndex="1" totalExplodedTrackCount="2" premiereTrackType="Stereo">
-							<enabled>TRUE</enabled>
-							<locked>FALSE</locked>
-							<outputchannelindex>2</outputchannelindex>
-						</track>
-						<track TL.SQTrackAudioKeyframeStyle="0" TL.SQTrackShy="0" TL.SQTrackExpandedHeight="25" TL.SQTrackExpanded="0" MZ.TrackTargeted="1" PannerCurrentValue="0.5" PannerIsInverted="true" PannerStartKeyframe="-91445760000000000,0.5,0,0,0,0,0,0" PannerName="Balance" currentExplodedTrackIndex="0" totalExplodedTrackCount="2" premiereTrackType="Stereo">
-							<enabled>TRUE</enabled>
-							<locked>FALSE</locked>
-							<outputchannelindex>1</outputchannelindex>
-						</track>
-						<track TL.SQTrackAudioKeyframeStyle="0" TL.SQTrackShy="0" TL.SQTrackExpandedHeight="25" TL.SQTrackExpanded="0" MZ.TrackTargeted="1" PannerCurrentValue="0.5" PannerIsInverted="true" PannerStartKeyframe="-91445760000000000,0.5,0,0,0,0,0,0" PannerName="Balance" currentExplodedTrackIndex="1" totalExplodedTrackCount="2" premiereTrackType="Stereo">
-							<enabled>TRUE</enabled>
-							<locked>FALSE</locked>
-							<outputchannelindex>2</outputchannelindex>
-						</track>
-					</audio>
-				</media>
-				<timecode>
-					<rate>
-						<timebase>30</timebase>
-						<ntsc>TRUE</ntsc>
-					</rate>
-					<string>00;00;00;00</string>
-					<frame>0</frame>
-					<displayformat>DF</displayformat>
-				</timecode>
-				<labels>
-					<label2>Forest</label2>
-				</labels>
-			</sequence>
-			<clip id="masterclip-8" explodedTracks="true">
-				<uuid>7d1cfe19-8e41-4cba-aded-8b1fbc1594b5</uuid>
-				<masterclipid>masterclip-8</masterclipid>
-				<ismasterclip>TRUE</ismasterclip>
-				<duration>150</duration>
-				<rate>
-					<timebase>30</timebase>
-					<ntsc>TRUE</ntsc>
-				</rate>
-				<in>0</in>
-				<out>149</out>
-				<name>164701_676315052385_33413623_37191912_4708517_n.jpg</name>
-				<media>
-					<video>
-						<track>
-							<clipitem id="clipitem-23">
-								<masterclipid>masterclip-8</masterclipid>
-								<name>164701_676315052385_33413623_37191912_4708517_n.jpg</name>
-								<rate>
-									<timebase>30</timebase>
-									<ntsc>TRUE</ntsc>
-								</rate>
-								<alphatype>none</alphatype>
-								<file id="file-8"/>
-							</clipitem>
-						</track>
-					</video>
-				</media>
-				<logginginfo>
-					<description></description>
-					<scene></scene>
-					<shottake></shottake>
-					<lognote></lognote>
-				</logginginfo>
-				<labels>
-					<label2>Lavender</label2>
-				</labels>
-			</clip>
-			<clip id="masterclip-9" explodedTracks="true">
-				<uuid>b03474c2-b1dd-42a6-99be-2af9f6db0b27</uuid>
-				<masterclipid>masterclip-9</masterclipid>
-				<ismasterclip>TRUE</ismasterclip>
-				<duration>150</duration>
-				<rate>
-					<timebase>30</timebase>
-					<ntsc>TRUE</ntsc>
-				</rate>
-				<in>0</in>
-				<out>149</out>
-				<name>180361_676314957575_3424422_n.jpg</name>
-				<media>
-					<video>
-						<track>
-							<clipitem id="clipitem-24">
-								<masterclipid>masterclip-9</masterclipid>
-								<name>180361_676314957575_3424422_n.jpg</name>
-								<rate>
-									<timebase>30</timebase>
-									<ntsc>TRUE</ntsc>
-								</rate>
-								<alphatype>none</alphatype>
-								<file id="file-9"/>
-							</clipitem>
-						</track>
-					</video>
-				</media>
-				<logginginfo>
-					<description></description>
-					<scene></scene>
-					<shottake></shottake>
-					<lognote></lognote>
-				</logginginfo>
-				<labels>
-					<label2>Lavender</label2>
-				</labels>
-			</clip>
-		</children>
-	</project>
+										<width>720</width>
+										<height>480</height>
+										<anamorphic>FALSE</anamorphic>
+										<pixelaspectratio>NTSC-601</pixelaspectratio>
+										<fielddominance>none</fielddominance>
+									</samplecharacteristics>
+								</video>
+							</media>
+						</file>
+						<filter>
+							<effect>
+								<name>Distort</name>
+								<effectid>deformation</effectid>
+								<effectcategory>motion</effectcategory>
+								<effecttype>motion</effecttype>
+								<mediatype>video</mediatype>
+								<parameter authoringApp="PremierePro">
+									<parameterid>aspect</parameterid>
+									<name>Aspect</name>
+									<valuemin>-10000</valuemin>
+									<valuemax>10000</valuemax>
+									<value>10</value>
+								</parameter>
+							</effect>
+						</filter>
+						<logginginfo>
+							<description></description>
+							<scene></scene>
+							<shottake></shottake>
+							<lognote></lognote>
+						</logginginfo>
+						<labels>
+							<label2>Lavender</label2>
+						</labels>
+					</clipitem>
+					<clipitem id="clipitem-33">
+						<masterclipid>masterclip-14</masterclipid>
+						<name>164701_676315052385_33413623_37191912_4708517_n.jpg</name>
+						<enabled>TRUE</enabled>
+						<duration>1294705</duration>
+						<rate>
+							<timebase>30</timebase>
+							<ntsc>TRUE</ntsc>
+						</rate>
+						<start>277</start>
+						<end>405</end>
+						<in>107892</in>
+						<out>108020</out>
+						<pproTicksIn>914456685542400</pproTicksIn>
+						<pproTicksOut>915541570944000</pproTicksOut>
+						<alphatype>none</alphatype>
+						<file id="file-14"/>
+						<logginginfo>
+							<description></description>
+							<scene></scene>
+							<shottake></shottake>
+							<lognote></lognote>
+						</logginginfo>
+						<labels>
+							<label2>Lavender</label2>
+						</labels>
+					</clipitem>
+					<enabled>TRUE</enabled>
+					<locked>FALSE</locked>
+				</track>
+			</video>
+			<audio>
+				<numOutputChannels>2</numOutputChannels>
+				<format>
+					<samplecharacteristics>
+						<depth>16</depth>
+						<samplerate>48000</samplerate>
+					</samplecharacteristics>
+				</format>
+				<outputs>
+					<group>
+						<index>1</index>
+						<numchannels>1</numchannels>
+						<downmix>0</downmix>
+						<channel>
+							<index>1</index>
+						</channel>
+					</group>
+					<group>
+						<index>2</index>
+						<numchannels>1</numchannels>
+						<downmix>0</downmix>
+						<channel>
+							<index>2</index>
+						</channel>
+					</group>
+				</outputs>
+				<track TL.SQTrackAudioKeyframeStyle="0" TL.SQTrackShy="0" TL.SQTrackExpandedHeight="25" TL.SQTrackExpanded="0" MZ.TrackTargeted="1" PannerCurrentValue="0.5" PannerIsInverted="true" PannerStartKeyframe="-91445760000000000,0.5,0,0,0,0,0,0" PannerName="Balance" currentExplodedTrackIndex="0" totalExplodedTrackCount="2" premiereTrackType="Stereo">
+					<enabled>TRUE</enabled>
+					<locked>FALSE</locked>
+					<outputchannelindex>1</outputchannelindex>
+				</track>
+				<track TL.SQTrackAudioKeyframeStyle="0" TL.SQTrackShy="0" TL.SQTrackExpandedHeight="25" TL.SQTrackExpanded="0" MZ.TrackTargeted="1" PannerCurrentValue="0.5" PannerIsInverted="true" PannerStartKeyframe="-91445760000000000,0.5,0,0,0,0,0,0" PannerName="Balance" currentExplodedTrackIndex="1" totalExplodedTrackCount="2" premiereTrackType="Stereo">
+					<enabled>TRUE</enabled>
+					<locked>FALSE</locked>
+					<outputchannelindex>2</outputchannelindex>
+				</track>
+				<track TL.SQTrackAudioKeyframeStyle="0" TL.SQTrackShy="0" TL.SQTrackExpandedHeight="25" TL.SQTrackExpanded="0" MZ.TrackTargeted="1" PannerCurrentValue="0.5" PannerIsInverted="true" PannerStartKeyframe="-91445760000000000,0.5,0,0,0,0,0,0" PannerName="Balance" currentExplodedTrackIndex="0" totalExplodedTrackCount="2" premiereTrackType="Stereo">
+					<enabled>TRUE</enabled>
+					<locked>FALSE</locked>
+					<outputchannelindex>1</outputchannelindex>
+				</track>
+				<track TL.SQTrackAudioKeyframeStyle="0" TL.SQTrackShy="0" TL.SQTrackExpandedHeight="25" TL.SQTrackExpanded="0" MZ.TrackTargeted="1" PannerCurrentValue="0.5" PannerIsInverted="true" PannerStartKeyframe="-91445760000000000,0.5,0,0,0,0,0,0" PannerName="Balance" currentExplodedTrackIndex="1" totalExplodedTrackCount="2" premiereTrackType="Stereo">
+					<enabled>TRUE</enabled>
+					<locked>FALSE</locked>
+					<outputchannelindex>2</outputchannelindex>
+				</track>
+				<track TL.SQTrackAudioKeyframeStyle="0" TL.SQTrackShy="0" TL.SQTrackExpandedHeight="25" TL.SQTrackExpanded="0" MZ.TrackTargeted="1" PannerCurrentValue="0.5" PannerIsInverted="true" PannerStartKeyframe="-91445760000000000,0.5,0,0,0,0,0,0" PannerName="Balance" currentExplodedTrackIndex="0" totalExplodedTrackCount="2" premiereTrackType="Stereo">
+					<enabled>TRUE</enabled>
+					<locked>FALSE</locked>
+					<outputchannelindex>1</outputchannelindex>
+				</track>
+				<track TL.SQTrackAudioKeyframeStyle="0" TL.SQTrackShy="0" TL.SQTrackExpandedHeight="25" TL.SQTrackExpanded="0" MZ.TrackTargeted="1" PannerCurrentValue="0.5" PannerIsInverted="true" PannerStartKeyframe="-91445760000000000,0.5,0,0,0,0,0,0" PannerName="Balance" currentExplodedTrackIndex="1" totalExplodedTrackCount="2" premiereTrackType="Stereo">
+					<enabled>TRUE</enabled>
+					<locked>FALSE</locked>
+					<outputchannelindex>2</outputchannelindex>
+				</track>
+			</audio>
+		</media>
+		<timecode>
+			<rate>
+				<timebase>30</timebase>
+				<ntsc>TRUE</ntsc>
+			</rate>
+			<string>00;00;00;00</string>
+			<frame>0</frame>
+			<displayformat>DF</displayformat>
+		</timecode>
+		<labels>
+			<label2>Forest</label2>
+		</labels>
+	</sequence>
 </xmeml>
